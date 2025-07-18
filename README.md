@@ -8,6 +8,15 @@ The research paper called **ObjectDrop** from Google is implemented with SDXL co
 <img src="assets/1.png" width="480" height="600" />
 
 
+## For training on a custom dataset
+
+```bash
+# Set the configurations in trian.sh script
+cd src/
+bash train.sh > logs.txt
+
+```
+
 ## Business Value
 
 <div style="display: flex; gap: 10px;">
